@@ -1,0 +1,11 @@
+### Get the current list of posts
+GET http://localhost:8080/feed/posts
+
+### Create a new post
+POST http://localhost:8080/feed/post
+Content-Type:application/json
+
+{
+  "title": "This is a title",
+  "content": "This is a content"
+}
